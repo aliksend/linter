@@ -73,6 +73,7 @@ rules:
 overrides:
   - files:
       - src/config/config.ts
+      - src/config.ts
     rules:
       # n
       "n/no-restricted-import": [error, []]
