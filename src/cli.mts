@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 import { defineCommand, runMain } from 'citty'
-import { spawnSync } from 'child_process'
-import path from 'path'
-import fs from 'fs'
-import { fileURLToPath } from 'url'
+import { spawnSync } from 'node:child_process'
+import path from 'node:path'
+import fs from 'node:fs'
+import { fileURLToPath } from 'node:url'
 
 const dirname = path.dirname(fileURLToPath(import.meta.url))
 
