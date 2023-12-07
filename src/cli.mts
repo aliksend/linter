@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import { defineCommand, runMain } from 'citty'
 import { spawnSync } from 'child_process'
 import path from 'path'
