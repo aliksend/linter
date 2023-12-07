@@ -1,11 +1,12 @@
 {
   "name": "aliksend-linter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "./dist/cli.js",
   "type": "module",
   "bin": "./dist/cli.js",
   "scripts": {
+    "prepublishOnly": "npm run build",
     "start": "ts-node src/cli.ts",
     "build": "rm -rf dist && tsc"
   },
